@@ -1,0 +1,59 @@
+1664774663003	Rename resource 'headercss.css'
+1665070251845	Rename package 'com.miletone.app.user'
+1665070291392	Rename package 'com.milestone.user.dao'
+1665070540639	Copy package
+1665070544878	Delete element
+1665070575520	Copy package
+1665070578792	Delete element
+1665070600288	Delete element
+1665070632879	Copy package
+1665070637312	Delete element
+1665070662190	Copy package
+1665070665080	Delete element
+1665070691753	Delete element
+1665070732746	Copy package
+1665070768172	Delete element
+1665071035800	Delete element
+1665071038209	Delete element
+1665071049611	Delete element
+1665071052166	Delete element
+1665101611345	Copy package
+1665101615816	Delete element
+1665103592312	Rename compilation unit 'MybatisConfig.java'
+1665103744500	Rename resource 'NurserySchoolMember.xml'
+1665103932011	Rename package 'com.koreait.app'
+1665140130911	Rename type 'BoardDTO'
+1665140150433	Rename type 'BoardVO'
+1665140697415	Rename type 'MemberDAO'
+1665141181334	Copy compilation unit
+1665141183804	Copy compilation unit
+1665141198964	Rename type 'IndividualMemberDTO'
+1665141212137	Rename type 'IndividualMemberVO'
+1665141398014	Copy compilation unit
+1665141413022	Rename type 'IndividualMemberDAO'
+1665144183939	Delete element
+1665144185621	Delete element
+1665144187331	Delete element
+1665144189075	Delete element
+1665144190828	Delete element
+1665144192612	Delete element
+1665144293041	Delete element
+1665144426039	Rename package 'com.koreait.app.board'
+1665144454426	Delete element
+1665144483199	Rename package 'com.koreait.app.board'
+1665144504300	Rename package 'com.koreait.app.individualMember'
+1665144534351	Rename type 'BoardFrontController'
+1665144552512	Delete element
+1665144585708	Delete element
+1665144604850	Rename type 'BoardFrontController'
+1665144762306	Rename package 'com.milestone.app1'
+1665145196656	Delete element
+1665145231028	Rename package 'com.milestone.individualMember'
+1665145275524	Rename package 'com.milestone.app1'
+1665145350448	Rename type 'asd'
+1665145362169	Rename type 'asd'
+1665145818380	Rename type 'DonationFrontController'
+1665145828197	Rename type 'DonationVO'
+1665146282732	Delete element
+1665146287182	Delete element
+1665211308476	Delete element

@@ -1,0 +1,8 @@
+127.0.0.1 - - [05/Nov/2022:10:42:48 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [05/Nov/2022:10:42:50 +0900] "GET /milestone/app/donation/donation.jsp HTTP/1.1" 200 14406
+0:0:0:0:0:0:0:1 - - [05/Nov/2022:10:42:50 +0900] "GET /milestone/app/donation/donation.css HTTP/1.1" 404 854
+0:0:0:0:0:0:0:1 - - [05/Nov/2022:10:42:50 +0900] "GET /milestone/app/donation/headerFooter.css HTTP/1.1" 404 858
+0:0:0:0:0:0:0:1 - - [05/Nov/2022:10:42:50 +0900] "GET /milestone/app/donation/script.js HTTP/1.1" 404 851
+0:0:0:0:0:0:0:1 - - [05/Nov/2022:10:42:50 +0900] "GET /milestone/assets/css/donation/img/schoolProfile.jpg HTTP/1.1" 404 878
+0:0:0:0:0:0:0:1 - - [05/Nov/2022:10:42:50 +0900] "GET /milestone/app/donation/script.js HTTP/1.1" 404 851
+0:0:0:0:0:0:0:1 - - [05/Nov/2022:10:42:51 +0900] "GET /favicon.ico HTTP/1.1" 404 818

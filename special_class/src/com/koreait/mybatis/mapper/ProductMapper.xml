@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Product">
+
+	<!-- DAO에서 mapper namespace와 id를 찾아 접근한다. -->
+	<!-- 아까 매게변수 타입을 productVO로 했으니까 여기도 productVO로 한다. -->
+	<insert id="insert" parameterType="productVO">
+		<!-- tbl_product즉 디비 테이블에 삽입한다. productname,price,stock 을 삽입한다. -->
+		insert into tbl_product (product_name, product_price, product_stock)
+		<!-- 아래 values는 화면에서 사용자가 입력한 값들이다. -->
+		values(#{productName}, #{productPrice}, #{productStock})
+	</insert>
+
+	<!-- select문은 찾아오는거니까 resultType이 존재하고 DAO에서도 return타입을 적어주자 -->
+	<select id="select" resultType="productVO">
+		<!-- select즉 찾아온다, productname,price,stock을 찾아온다 -->
+		select product_number, product_name, product_price, product_stock
+		<!-- 어디서? product테이블에서 그런 위에 3개값을 찾아오는 쿼리문이다. -->
+		from tbl_product
+	</select>
+
+	<!-- delete문은 디비에서 삭제하는거니까 void로써 resulttype이 없고 partametertype만 있다. -->
+	<!-- 대부분 select는 찾아오는거니까 resulttype이 있고 insert,delete는 가서 돌아올필요가 없으니까 parameter만 
+		쓰면 된다. -->
+	<delete id="delete" parameterType="_int"> <!-- 숫자가 중복이 안되니까 숫자로 지워버려서 _int로 한다. -->
+		delete from tbl_product where product_number = #{productNumber} <!-- 내가 
+			누른 삭제버튼의 넘버로 디비에 같은 넘버를 지운다. -->
+	</delete>
+	
+	<!--최신순 정렬 쿼리문  -->
+	<select id="showByRecent" resultType="productVO">
+		select product_number, product_name, product_price, product_stock
+		from tbl_product
+		order by product_number desc
+	</select>
+
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

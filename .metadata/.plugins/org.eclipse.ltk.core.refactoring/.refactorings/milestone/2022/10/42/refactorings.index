@@ -1,0 +1,39 @@
+1665385406939	Rename package 'com.koreait.mybatis.mapper'
+1665385429497	Copy file
+1665385431706	Copy file
+1665385433719	Copy file
+1665385435642	Copy file
+1665385437500	Copy file
+1665385456801	Copy file
+1665385461985	Copy file
+1665385477817	Rename package 'com.koreait.app'
+1665385504911	Rename package 'com.koreait.mybatis.config'
+1665386721572	Rename package 'com.koreait.app.board'
+1665386732557	Delete element
+1665387745853	Delete element
+1665387784718	Rename package 'com.milestone.nurseryschoolcommunity.dao'
+1665394535146	Rename resource 'BoardMapper.xml'
+1665394560642	Rename resource 'BoardMapper2.xml'
+1665394575717	Rename resource 'BoardMapper3.xml'
+1665394585984	Rename resource 'BoardMapper4.xml'
+1665394602722	Rename resource 'BoardMapper5.xml'
+1665394610162	Rename resource 'BoardMapper6.xml'
+1665394632182	Rename resource 'BoardMapper7.xml'
+1665394685323	Rename resource 'BoardMapper8.xml'
+1665394700560	Rename resource 'Mapper.xml'
+1665394722472	Rename resource 'CommunityMapper.xml'
+1665394762783	Rename resource 'MemberMapper.xml'
+1665394891520	Rename resource 'individualMapper.xml'
+1665394906672	Rename resource 'Mapper.xml'
+1665569309114	Rename package 'com.milestone.member'
+1665572443243	Rename type 'findPwOkController'
+1665572450471	Rename type 'findIdOkController'
+1665572455174	Rename type 'findIdController'
+1665573489910	Copy compilation units
+1665578689615	Copy compilation unit
+1665591962800	Rename package 'com.milestone.app.intoduce'
+1665591972525	Copy compilation unit
+1665591983023	Rename type 'MemberFrontController'
+1665598040472	Copy compilation unit
+1665598048073	Copy compilation unit
+1665598360785	Copy compilation unit

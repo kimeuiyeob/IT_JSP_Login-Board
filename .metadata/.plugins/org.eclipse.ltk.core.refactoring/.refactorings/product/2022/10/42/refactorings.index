@@ -1,0 +1,13 @@
+1665713951005	Rename package 'com.koreait.app'
+1665713961330	Rename package 'com.koreait.mybatis.config'
+1665713968381	Rename package 'com.koreait.mybatis.mapper'
+1665721984901	Rename package 'com.product.app.product.vo'
+1665722005236	Delete element
+1665722006837	Delete element
+1665722008445	Delete element
+1665722022862	Rename resource 'FileMapper.xml'
+1665722227912	Rename package 'com.product.app'
+1665722308895	Rename package 'com.product.app.product.dao'
+1665722322683	Rename package 'com.product.mybatis.config'
+1665726052001	Rename method 'sellectAll'
+1665726426331	Rename package 'com.koreait.app.product.vo'

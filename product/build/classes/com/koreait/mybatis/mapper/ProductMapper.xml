@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="product">
+
+	<insert id="insert" parameterType="productVO">
+		insert into tbl_product (product_name, product_price, product_stock)
+		values(#{productName}, #{productPrice}, #{productStock})
+	</insert>
+	
+	<select id="selectAll" resultType="productVO">
+		select product_number, product_name, product_price, product_stock from tbl_product
+	</select>
+	
+	<select id="selectAllByRecent" resultType="productVO">
+		select product_number, product_name, product_price, product_stock from tbl_product
+		order by product_number desc <!-- 조건문 : 숫자정렬은 Mapper에서 해주는게 편하다. -->
+	</select>
+	
+	<delete id="delete" parameterType="_int">
+		delete from tbl_product where product_number = {productNumber}
+	</delete>
+	
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

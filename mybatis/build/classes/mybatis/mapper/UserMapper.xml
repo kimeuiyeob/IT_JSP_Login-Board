@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="User"> <!--테이블 하나당 mapper하나 , 이름은 같게!! -->
+
+	<!--아이디 중복검사 -->
+	<select id="checkId" parameterType="string" resultType="_int"> <!--id는 메소드이름이랑 같게!! , Type String이 아니라 string소문자이다. _이게앞에붙으면 일반타입이다. -->
+		select user_id from tbl_user where user_id = #{userId}
+	</select>
+
+	<!--회원 가입 -->
+	<insert id="insert" parameterType="vo.UserVO">
+		insert into tbl_user (userId,
+		userPassword, userName, userAge,
+		userPhoneNumber, userBirth) values(#{userId}, #{userPassword},
+		#{userName},
+		#{userAge}, #{userPhoneNumber}, #{userBirth})
+	</insert>
+
+
+	<!--회원 정보 조회 -->
+	<select id="selectUser" resultType="vo.UserVO">
+		select user_number from tbl_user = #{userVO}
+	</select>
+
+
+
+	<!--로그인 -->
+	<select id="login" parameterType="string" resultType="_int"> <!--id는 메소드이름이랑 같게!! , Type String이 아니라 string소문자이다. _이게앞에붙으면 일반타입이다. -->
+		select count(user_number) from tbl_user where user_number =
+		#{userId,userPassword}
+	</select>
+
+</mapper>
+
